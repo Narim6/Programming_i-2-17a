@@ -1,0 +1,10 @@
+var letters=["q","w","e","r","t"]
+if (letters.length>2){
+ letters.unshift(letters.length)
+ letters.pop()}
+console.log(letters.reverse())
+var max=0
+for (var i=0; i<letters.length; i++) {
+ if (max<letters[i])
+  max=letters[i]; }
+console.log (Math.sqrt(max))
